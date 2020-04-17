@@ -1,0 +1,245 @@
+<div class="wrapper">
+    <div class="sidebar">
+        <div class="logo"><img src="assets/infrrd_logo.png"></div>
+        <ul>
+            <li><a href="#"><i class="fa fa-home"></i>&nbsp;Overview</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i>&nbsp;Messages</a></li>
+            <li><a href="javascript:void(0);" (click)="searc_data()"><i class="fa fa-search"></i>&nbsp;Search</a></li>
+            <li><a href="#"><i class="fa fa-filter"></i>&nbsp;Filter</a></li>
+            <li><a href="#"><i class="fa fa-history"></i>&nbsp;History</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>&nbsp;My Account</a></li>
+        </ul> 
+        <ul class="side_footer">
+          <li><a href="#"><i class="fa fa-comment"></i>&nbsp;Get Help</a></li>
+          <li><a href="#"><i class="fa fa-sign-out"></i>&nbsp;Sign Out</a></li>
+        </ul>
+    </div>
+    <div class="main_content">
+        <div class="header">
+            <ul class="page_right">
+                <li><a href="#"><i class="fa fa-bell"></i></a></li>
+                <li>
+                    <select id="Product">
+                        <option value="Choose Team">Choose Team</option>
+                        <option value="IDC">IDC</option>
+                        <option value="OCBC">OCBC</option>
+                        <option value="Radian">Radian</option>
+                      </select>
+                </li>
+            </ul>
+        </div>
+        <div class="content_header">
+            <div class="content_header_item">
+                <span>5 Result Found </span>
+                <span style="float: right;"><label for="Bang_Emp"><input type="radio" class="radio-custom" name="Bang_Emp" checked value=""/> Show only Bangalore Employees</label></span>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="grid_data">
+                <div class="basic_info">
+                    <ul>
+                        <li>
+                        <span><img src="assets/image_2.jpg" alt="Avatar"></span>
+                        <span class="rating" style="color: #A9A9A9;padding-top: 12px;">3.5 Rating</span>
+                        </li>
+                        <li>
+                            <span style="padding-left: 20px;font-weight:bold;">Andre Bridgen</span>
+                            <span style="padding-left: 21px;padding-top: 2px;">Sr.UI Developer</span>
+                            <span class="rate" style="padding-top: 3px">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                            </span>
+                        </li>
+                        <li style="padding-left: 38px;" class="messageClass"><i style="cursor: pointer;" class="fa fa-paper-plane" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience"> Experience:</label>5.8 Years</span>
+                    <span style="float: right;padding-top: 6px;"><label style="color: #A9A9A9;" for = "experience">Date of Joining:</label> 2017</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Current Team:</label> OCBC Singapore</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Reporting Manager:</label> Lalit Agarwal</span>
+                </div>
+                <div class="">
+                    <span style="font-size: 12px;"><a style="color: blue;" href="#"><i class="fa fa-phone"></i><span style="color: black;">&nbsp;&nbsp;9764732974</span></a></span>
+                    <span style="float: right;font-size: 12px;padding-top: 5px;"><a style="color:red;" href="#"><i class="fa fa-envelope"></i><span style="color: black;">&nbsp;&nbsp;xyz@gmail.com</span></a></span>
+                </div>
+            </div>
+            <div class="grid_data">
+                <div class="basic_info">
+                    <ul>
+                        <li>
+                        <span><img src="assets/images_1.jpg" alt="Avatar"></span>
+                        <span class="rating" style="color: #A9A9A9;padding-top: 12px;">3.5 Rating</span>
+                        </li>
+                        <li>
+                            <span style="padding-left: 20px;font-weight:bold;">Andre Bridgen</span>
+                            <span style="padding-left: 21px;padding-top: 2px;">Sr.UI Developer</span>
+                            <span class="rate" style="padding-top: 3px">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                            </span>
+                        </li>
+                        <li style="padding-left: 38px;" class="messageClass"><i style="cursor: pointer;" class="fa fa-paper-plane" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience"> Experience:</label>5.8 Years</span>
+                    <span style="float: right;padding-top: 6px;"><label style="color: #A9A9A9;" for = "experience">Date of Joining:</label> 2017</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Current Team:</label> OCBC Singapore</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Reporting Manager:</label> Lalit Agarwal</span>
+                </div>
+                <div class="">
+                    <span style="font-size: 12px;"><a style="color: blue;" href="#"><i class="fa fa-phone"></i><span style="color: black;">&nbsp;&nbsp;9764732974</span></a></span>
+                    <span style="float: right;font-size: 12px;padding-top: 5px;"><a style="color:red;" href="#"><i class="fa fa-envelope"></i><span style="color: black;">&nbsp;&nbsp;xyz@gmail.com</span></a></span>
+                </div>
+            </div>
+            <div class="grid_data">
+                <div class="basic_info">
+                    <ul>
+                        <li>
+                        <span><img src="assets/image.png" alt="Avatar"></span>
+                        <span class="rating" style="color: #A9A9A9;padding-top: 12px;">3.5 Rating</span>
+                        </li>
+                        <li>
+                            <span style="padding-left: 20px;font-weight:bold;">Andre Bridgen</span>
+                            <span style="padding-left: 21px;padding-top: 2px;">Sr.UI Developer</span>
+                            <span class="rate" style="padding-top: 3px">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                            </span>
+                        </li>
+                        <li style="padding-left: 38px;" class="messageClass"><i style="cursor: pointer;" class="fa fa-paper-plane" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience"> Experience:</label>5.8 Years</span>
+                    <span style="float: right;padding-top: 6px;"><label style="color: #A9A9A9;" for = "experience">Date of Joining:</label> 2017</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Current Team:</label> OCBC Singapore</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Reporting Manager:</label> Lalit Agarwal</span>
+                </div>
+                <div class="">
+                    <span style="font-size: 12px;"><a style="color: blue;" href="#"><i class="fa fa-phone"></i><span style="color: black;">&nbsp;&nbsp;9764732974</span></a></span>
+                    <span style="float: right;font-size: 12px;padding-top: 5px;"><a style="color:red;" href="#"><i class="fa fa-envelope"></i><span style="color: black;">&nbsp;&nbsp;xyz@gmail.com</span></a></span>
+                </div>
+            </div>
+            <div class="grid_data">
+                <div class="basic_info">
+                    <ul>
+                        <li>
+                        <span><img src="assets/image_2.jpg" alt="Avatar"></span>
+                        <span class="rating" style="color: #A9A9A9;padding-top: 12px;">3.5 Rating</span>
+                        </li>
+                        <li>
+                            <span style="padding-left: 20px;font-weight:bold;">Andre Bridgen</span>
+                            <span style="padding-left: 21px;padding-top: 2px;">Sr.UI Developer</span>
+                            <span class="rate" style="padding-top: 3px">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                            </span>
+                        </li>
+                        <li style="padding-left: 38px;" class="messageClass"><i style="cursor: pointer;" class="fa fa-paper-plane" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience"> Experience:</label>5.8 Years</span>
+                    <span style="float: right;padding-top: 6px;"><label style="color: #A9A9A9;" for = "experience">Date of Joining:</label> 2017</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Current Team:</label> OCBC Singapore</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Reporting Manager:</label> Lalit Agarwal</span>
+                </div>
+                <div class="">
+                    <span style="font-size: 12px;"><a style="color: blue;" href="#"><i class="fa fa-phone"></i><span style="color: black;">&nbsp;&nbsp;9764732974</span></a></span>
+                    <span style="float: right;font-size: 12px;padding-top: 5px;"><a style="color:red;" href="#"><i class="fa fa-envelope"></i><span style="color: black;">&nbsp;&nbsp;xyz@gmail.com</span></a></span>
+                </div>
+            </div>
+            <div class="grid_data">
+                <div class="basic_info">
+                    <ul>
+                        <li>
+                        <span><img src="assets/images_1.jpg" alt="Avatar"></span>
+                        <span class="rating" style="color: #A9A9A9;padding-top: 12px;">3.5 Rating</span>
+                        </li>
+                        <li>
+                            <span style="padding-left: 20px;font-weight:bold;">Andre Bridgen</span>
+                            <span style="padding-left: 21px;padding-top: 2px;">Sr.UI Developer</span>
+                            <span class="rate" style="padding-top: 3px">
+                            <input type="radio" id="star5" name="rate" value="5" />
+                            <label for="star5" title="text">5 stars</label>
+                            <input type="radio" id="star4" name="rate" value="4" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" id="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" id="star2" name="rate" value="2" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" id="star1" name="rate" value="1" />
+                            <label for="star1" title="text">1 star</label>
+                            </span>
+                        </li>
+                        <li style="padding-left: 38px;" class="messageClass"><i style="cursor: pointer;" class="fa fa-paper-plane" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience"> Experience:</label>5.8 Years</span>
+                    <span style="float: right;padding-top: 6px;"><label style="color: #A9A9A9;" for = "experience">Date of Joining:</label> 2017</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Current Team:</label> OCBC Singapore</span>
+                </div>
+                <div class="basic_info">
+                    <span><label style="color: #A9A9A9;" for = "experience">Reporting Manager:</label> Lalit Agarwal</span>
+                </div>
+                <div class="">
+                    <span style="font-size: 12px;"><a style="color: blue;" href="#"><i class="fa fa-phone"></i><span style="color: black;">&nbsp;&nbsp;9764732974</span></a></span>
+                    <span style="float: right;font-size: 12px;padding-top: 5px;"><a style="color:red;" href="#"><i class="fa fa-envelope"></i><span style="color: black;">&nbsp;&nbsp;xyz@gmail.com</span></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
